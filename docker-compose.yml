@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  m3u-modifier:
+    restart: unless-stopped
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "5020:5020"

@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.8-slim
+FROM python:3.13-slim
 
 # Set environment variables
 ENV VIRTUAL_ENV=/opt/venv
